@@ -26,3 +26,18 @@ dont define expected outcomes and results.
 1. It is a 2 sided battle. One side is testing for errors. The other side is testing to see it does what it was designed for.
 1. Do not plan testing around an assumption you will find no errors.
 1. The probability of more errors in a program is usually in line with the number of errors already found.
+
+
+## Chapter 3
+- Human testing techniques are quite effective.
+- The earlier errors are found the easier and less costly they are to fix.
+
+#### Inspections and Walkthroughs
+- They invole a team of people reading through the code with a goal to find errors, not fix them.
+- Advantages include being able to locate an error precisely in the code instead of waiting till the testing stage where errors are thrown and you then need to search the code to find the issue.
+- Human testing can be more effiencet at find errors then computer based testing expect for high level design errors etc. errors in requirements analysis process.
+- Program modification is often more error prone then writing a new program so modifications should always be tested. 
+- Reading code aloud, line by line is an effective error detection method. 
+- Errors found are used to improve on an error checklist.
+- 90-120 minutes is the optimal time spent reviewing code.
+- The human attitude is very important. If ego is not put aside then the work will not be improved upon.
