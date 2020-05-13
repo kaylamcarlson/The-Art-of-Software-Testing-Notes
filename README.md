@@ -41,3 +41,6 @@ dont define expected outcomes and results.
 - Errors found are used to improve on an error checklist.
 - 90-120 minutes is the optimal time spent reviewing code.
 - The human attitude is very important. If ego is not put aside then the work will not be improved upon.
+- Many errors are found through questioning the programmer in a walkthough instead of through the test cases.
+- Peer reviews are useful to improve upon programs and test for errors. People volunteer programs to be tested and they each test each others for 30 minutes then fill out a feedback form.
+- Any errors are not seen as a weakness on the programmers part, they should be looked at as just a result of the difficulty of the program itself.
