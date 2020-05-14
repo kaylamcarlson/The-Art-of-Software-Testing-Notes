@@ -44,3 +44,27 @@ dont define expected outcomes and results.
 - Many errors are found through questioning the programmer in a walkthough instead of through the test cases.
 - Peer reviews are useful to improve upon programs and test for errors. People volunteer programs to be tested and they each test each others for 30 minutes then fill out a feedback form.
 - Any errors are not seen as a weakness on the programmers part, they should be looked at as just a result of the difficulty of the program itself.
+
+
+## Chapter 4
+- Branch coverage, each test case has a true and false outcome at least once. Otherwise described as each branch direction being travelled twice.
+- Decision/ condition coverage does not exercise all outcomes of all conditions.
+- All points of entry need to be invoked at least once.
+- Each test case should test as many different input considerations as possible to minimize the total number of tests needed. 
+
+#### Equivalence
+- Fair assumption errors will be handled the same for test cases within the same class
+- Divided up by taking the inputs and dividing them between 2 groups or more
+- 2 types of classes are valid and invalid.
+- Form of Black Box testing.
+- Make sure to test all areas of the program as if it fails at the first check, it is unlikely to check for other errors. E.G if 1==1
+else 3==3. If 1 is not equal to 1 then it might throw and error and not check what 3 is equal too.
+
+#### Boundry Value Analysis
+- Testing the outer bounds of a range
+- If a program has ranges, test both the ends (maximum and minimum) and just beyond eg -1 and 1 or -1.01 and 1.01
+- If used correctly it is one of the most useful test case design methods.
+
+#### Cause-Effect Graphing
+- Explores combinations of input circumstances.EG. 2 inputs excede a maximum limit of something like memory. 
+- Must divide it into worable pieces as otherwise is can get out of uncontrol for large scale programs.
