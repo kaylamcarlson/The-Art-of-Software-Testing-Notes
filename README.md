@@ -66,5 +66,8 @@ else 3==3. If 1 is not equal to 1 then it might throw and error and not check wh
 - If used correctly it is one of the most useful test case design methods.
 
 #### Cause-Effect Graphing
-- Explores combinations of input circumstances.EG. 2 inputs excede a maximum limit of something like memory. 
-- Must divide it into worable pieces as otherwise is can get out of uncontrol for large scale programs.
+- Explores combinations of input circumstances e.g. 2 inputs excede a maximum limit of something like memory. 
+- Must divide it into workable pieces as otherwise is can get out of uncontrol for large scale programs.
+
+#### Error Guessing
+- No method to this, just using experience and intuition to seek out errors. Normally commonly occuring ones.
