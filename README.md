@@ -71,3 +71,15 @@ else 3==3. If 1 is not equal to 1 then it might throw and error and not check wh
 
 #### Error Guessing
 - No method to this, just using experience and intuition to seek out errors. Normally commonly occuring ones.
+
+## Chapter 5
+- Large programs require a different approach. Something called Module Testing.
+- You focus on testing sub programs, routines, classes and procedures.
+- It is largely a Whitebox testing method.
+
+#### Incremental Testing
+- Testing each module independently then combining them is called nonincremental.
+- Combining modules together both that to be tested and previously tested ones is called incremental testing and it is superior.
+- Debugging is easier if incremental testing is used and testing in more thorough.
+- It can be unwise to test early modules in a program if it is still being devloped. As the program further they may decide to change areas of the top code and it may not be tested again if it was already tested at a earlier stage.
+Top down vs bottom up testing each have advangtages and flaws, however bottom up has the advantage due easier obvservations and creation of test conditions.
