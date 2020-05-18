@@ -83,3 +83,26 @@ else 3==3. If 1 is not equal to 1 then it might throw and error and not check wh
 - Debugging is easier if incremental testing is used and testing in more thorough.
 - It can be unwise to test early modules in a program if it is still being devloped. As the program further they may decide to change areas of the top code and it may not be tested again if it was already tested at a earlier stage.
 Top down vs bottom up testing each have advangtages and flaws, however bottom up has the advantage due easier obvservations and creation of test conditions.
+
+## Chapter 6 High Order Testing
+- Many software errors are caused by breakdowns, mistakes or noise during the communication and translation of infromation.
+- The software development process goes through 7 stages:
+1. End user: Define useres needs into writeen requirements. This is the goal of the program.
+1. Reqirements: Requirements become specific objects. Feasibility, cost, time, conflicts, trade-offs and priorties are taken into account.
+1. Objectives/ External Specification: Translate objects into precise product speficiations. Only looking at interfaces and interactions with the end user.
+1. System Design: If it is a database system instead of an application then it needs to be divided into individual programs, components and sub-systems. Defining their interfaces.
+1. Program Structure Design: specify the function of each module, the hierarchy and the interfaces between modules.
+1. Module Interface Specifications: Define the interface and function of each module.
+1. Code: Translate all this into code.
+
+Requirements: Specify why a program exsists
+Objectives: What the program should do and how well.
+External Specifications: Define reprenstation of the program to users.
+Documentation: Subsequent processes have documentation in high detail, how thr program is constructed.
+
+- Three methods can be used during this to prevent and detect errors. More precision in development. Verification step at the end of processes before moving on or orient distant testing process to distant development processes.
+
+- Module tests find discrepancies between modules and their interface specifications
+- Function tests are designed to show a program does not match its specifications
+System tests show a product is inconsistant with its original objectives.
+
