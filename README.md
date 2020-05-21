@@ -27,21 +27,20 @@ don't define expected outcomes and results.
 1. Do not plan testing around an assumption you will find no errors.
 1. The probability of more errors in a program is usually in line with the number of errors already found.
 
-
 ## Chapter 3
 - Human testing techniques are quite effective.
 - The earlier errors are found the easier and less costly they are to fix.
-
+ 
 #### Inspections and Walkthroughs
-- They invole a team of people reading through the code with a goal to find errors, not fix them.
+- They involve a team of people reading through the code with a goal to find errors, not fix them.
 - Advantages include being able to locate an error precisely in the code instead of waiting till the testing stage where errors are thrown and you then need to search the code to find the issue.
-- Human testing can be more effiencet at find errors then computer based testing expect for high level design errors etc. errors in requirements analysis process.
-- Program modification is often more error prone then writing a new program so modifications should always be tested. 
-- Reading code aloud, line by line is an effective error detection method. 
+- Human testing can be more efficient at finding errors than computer based testing except for high level design errors etc. errors in the requirements analysis process.
+- Program modification is often more error prone then writing a new program so modifications should always be tested.
+- Reading code aloud, line by line is an effective error detection method.
 - Errors found are used to improve on an error checklist.
 - 90-120 minutes is the optimal time spent reviewing code.
 - The human attitude is very important. If ego is not put aside then the work will not be improved upon.
-- Many errors are found through questioning the programmer in a walkthough instead of through the test cases.
+- Many errors are found through questioning the programmer in a walkthrough instead of through the test cases.
 - Peer reviews are useful to improve upon programs and test for errors. People volunteer programs to be tested and they each test each others for 30 minutes then fill out a feedback form.
 - Any errors are not seen as a weakness on the programmers part, they should be looked at as just a result of the difficulty of the program itself.
 
