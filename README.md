@@ -2,7 +2,7 @@
 ## Chapter 2
 - QA testing is about raising the quality and reliability of the program.
 - Always start with an assumption there will be errors.
-- Best defined as "Testing is the process of executing a program with the intent of finding errors.
+- Best defined as "Testing is the process of executing a program with the intent of finding errors".
 - Due to human psychology, if our goal is to show no errors we are less likely to find errors, or try tests that will provide errors.
 - Calling a test that finds no errors successful is backwards thinking. You wouldn't call a visit to a doctor where they perform a test that gives no results a success. A better way of looking at it is that a test that results in errors is a success.
 - It is impossible to catch all errors and people are less motivated to try things they know are impossible, look at it as a process of uncovering as many errors as possible.
@@ -11,20 +11,19 @@
 - Always have a defined expected outcome as well as input.
 
 #### Black Box Testing
-This is input output driven testing. You are not focused on the inner workings of the program. Test data is centered around the specifications of the program. Maximize the number of errors found with a finite number of tests as it is impossible to test till 100% error free.
+This is input output driven testing. You are not focused on the inner workings of the program. Test data is centered around the specifications of the program. Maximize the number of errors found with a finite number of tests as it is impossible to test until the program is 100% error free.
  
 #### White Box Testing
 This is looking at the internal structure of a program. Program paths are important to test. A program can work however it may be using paths not intended or paths could be missing.
  
 #### Key Testing Guidelines
 1. You have to define for each test case an expected outcome/result.
-don't define expected outcomes and results.
 1. Whoever wrote the program is better off not being the one to test it.
 1. If possible a company should not test their own programs, so as to be as neutral as possible.
 1. Each result should be inspected as it can lead to other errors.
 1. Test cases need to be performed on not only unexpected conditions but also for ones the program is meant to produce.
 1. It is a 2 sided battle. One side is testing for errors. The other side is testing to see it does what it was designed for.
-1. Do not plan testing around an assumption you will find no errors.
+1. Do not plan testing around the assumption that you will find no errors.
 1. The probability of more errors in a program is usually in line with the number of errors already found.
 
 ## Chapter 3
@@ -57,7 +56,7 @@ don't define expected outcomes and results.
 - 2 types of classes are valid and invalid.
 - Form of Black Box testing.
 - Make sure to test all areas of the program as if it fails at the first check, it is unlikely to check for other errors. E.G if 1==1
-else 3==3. If 1 is not equal to 1 then it might throw and error and not check what 3 is equal to.
+else 3==3. If 1 is not equal to 1 then it might throw an error and not check what 3 is equal to.
  
 #### Boundary Value Analysis
 - Testing the outer bounds of a range
@@ -80,7 +79,7 @@ else 3==3. If 1 is not equal to 1 then it might throw and error and not check wh
 - Testing each module independently then combining them is called nonincremental.
 - Combining modules together both to be tested and previously tested ones is called incremental testing and it is superior.
 - Debugging is easier if incremental testing is used and testing is more thorough.
-- It can be unwise to test early modules in a program if it is still being developed. As the program further they may decide to change areas of the top code and it may not be tested again if it was already tested at an earlier stage.
+- It can be unwise to test early modules in a program if it is still being developed. As they program further they may decide to change areas of the top code and it may not be tested again if it was already tested at an earlier stage.
 Top down vs bottom up testing each have advantages and flaws, however bottom up has the advantage due easier observations and creation of test conditions.
 
 ## Chapter 6
@@ -95,8 +94,11 @@ Top down vs bottom up testing each have advantages and flaws, however bottom up 
 1. Code: Translate all this into code.
  
 Requirements: Specify why a program exists
+
 Objectives: What the program should do and how well.
+
 External Specifications: Define representation of the program to users.
+
 Documentation: Subsequent processes have documentation in high detail, how the program is constructed.
  
 - Three methods can be used during this to prevent and detect errors. More precision in development. Verification step at the end of processes before moving on or orient distant testing process to distant development processes.
