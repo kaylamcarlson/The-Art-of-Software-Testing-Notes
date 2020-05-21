@@ -100,13 +100,81 @@ Objectives: What the program should do and how well.
 External Specifications: Define representation of the program to users.
 
 Documentation: Subsequent processes have documentation in high detail, how the program is constructed.
- 
+
 - Three methods can be used during this to prevent and detect errors. More precision in development. Verification step at the end of processes before moving on or orient distant testing process to distant development processes.
- 
 #### Module tests
-- find discrepancies between modules and their interface specifications
+- Find discrepancies between modules and their interface specifications
 - Black box testing on small programs.
 - Analyze the specs to come up with test cases.
- 
 #### System Testing
+- Compare the system to its original objectives.
+ 
+#### Facility Testing
+- Look to see if each function or objective that was specified was implemented.
+ 
+#### Volume Testing
+- Subject the program to a heavy amount of data at one time.
+- Don't go overboard as it takes a lot of resources but you should still do a few volume tests to make sure it performs as well as specified during design.
+ 
+#### Stress Testing
+- This is subjecting the program to a heavy load for a short amount of time.
+- Testing at what would be peak volume.
+- Because it involves an element of time, it is not possible for many programs.
+- E.g. Testing air traffic systems if designed for tracking 200 airplanes at once, test it further.
+- For websites and web based applications during design you need to specify the volume of users you expect to be using it at any one time then design a test around that number.
+ 
+#### Usability Testing
+- This has become more important with GUI based systems.
+- Focus on the user experience and what errors they could cause when interacting with an application or software.
+ 
+#### Security Testing
+- This centers around creating tests that bypass security.
+- Study known security issues in similar systems and try to recreate them.
+ 
+#### Performance Testing
+- This checks the performance of software such as response times.
+ 
+#### Storage Testing
+- If a project has storage objectives it is important to test them.
+- How much memory does it use? What is the size of the logs or files?
+- Verify the program can control its memory usage.
+ 
+#### Configuration Testing
+- Does it run on all operating systems and devices?
+ 
+#### Compatibility/Conversion Testing
+- Most programs are not new, they are replacing an older version.
+- You try to generate errors while trying to move data from one system to another.
+- E.G. Does your new release support your existing data?
+ 
+#### Installation Testing
+- Making sure when an install occurs, no errors happen as first experiences can be everything for an end user.
+ 
+#### Recovery Testing
+- Testing the speed at which data can be recovered and making sure it brings everything back.
+ 
+#### Documentation Testing
+- Check accuracy and clarity of user documentation.
+- Use the guide to write test cases.
+ 
+#### Test Completion Criteria
+- Two most common criteria is when testing time expires or all test cases are executed without detecting errors.
+- Stopping after a certain amount of time is useless as you can do nothing and still satisfy that criteria. It does not mean the quality of testing is any good.
+- We are goal orientated so testing all cases till no errors are detected will produce better tests.
+- Another way to motivate through goal orientation is to look at testing not being complete until 70 errors are found or 3 months have passed. (However it is hard to estimate how many errors a program will have)
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
