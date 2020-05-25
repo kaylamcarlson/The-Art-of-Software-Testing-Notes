@@ -226,8 +226,28 @@ To what extent: Scope and magnitude of the symptoms.
 - Where was it made? Who made it? What was done incorrectly? How can it be avoided? Why wasn't it detected earlier and how could we have detected it earlier?
 - Analysing based on these questions will help with future programs to cut down on repeating errors.
 
+## Chapter 9 Testing in the Agile Environment
+- Today consumers demand high quality products to be delivered instantly, causing a change in the way products are developed.
+- Frequent catch ups to discuss development of smaller sections quicker.
+- It is flexible however it is mainly focused on customer satisfaction.
+- Agile development employs many methodologies however they all share 3 common threads.
+1. Rely on customer involvement.
+1. Mandate significant testing.
+1. Short development cycles.
+ 
+#### Agile Testing
+- Form of collaborative testing where everyone is involved in design, implementation and execution of the test plan.
+- Agile testing relies on automated testing to speed up development.
+ 
+#### Extreme Programming and Testing
+- Incremental approach relying heavily on unit and acceptance testing.
+- Simple designs, communication between developers and customers, always testing the code and seeking customer feedback are the basic principles.
+ 
+#### Acceptance Testing
+- Determine whether it meets requirements like functionality and usability.
  
  
+
  
  
  
