@@ -164,14 +164,68 @@ Documentation: Subsequent processes have documentation in high detail, how the p
 - Another way to motivate through goal orientation is to look at testing not being complete until 70 errors are found or 3 months have passed. (However it is hard to estimate how many errors a program will have)
  
  ## Chapter 7 Usability Testing
--Are the errors shown easy to read or do you need a degree to understand them?
+- Are the errors shown easy to read or do you need a degree to understand them?
 - When you need to be accurate is the program asking for enough information to verify e.g account number, name and security pin.
 - Is the program easy for anyone to use?
 - This is black box testing.
 - This type of testing can find errors from design flaws to software mistakes.
  
-
+## Chapter 8 Debugging
+- two steps to it. First find the error, the exact location and nature of it. Second fix the error.
+- Locating an error is 95% of the problem.
+- Always think about how the program should look and run and how an area with an error should be working.
+- If you get stuck, give it some time by doing other things and coming back to it later.
+- Use debugging tools as a backup after you have tried other methods.
+- Don't make experimental changes to a program, often it just adds new errors.
+- COrrecting some errors can lead to errors in other parts of a program.
  
+#### Bruteforce Debugging
+- Least efficient
+- Three categories, storage dump, scatter print and automated debugging tool.
+- Only recommend when all else has failed.
+ 
+#### Storage Dump
+- Worst of all.
+- Data dumps create a ton of data, most of which is useless.
+- Only gives a static image of the program. Errors are found during dynamic inspections.
+ 
+#### Scattering Statements
+- Not much better.
+- Gives a lot of data to be analyzed.
+- Requires changes in the program which can create new errors or alter critical relationships.
+ 
+#### Automated Debugging
+- Inserts print statements into the program allowing you to analyze changes over time.
+ 
+#### Debugging by Induction
+- Take one section of the program and transition to looking at it as a whole.
+- Look for clues then look for relationships between them. Come up with an idea for why the error is occuring then prove it. Once proven, move on to fixing.
+- Using what, where, when and to what extent are a good way to analyze errors.
+ 
+What: Symptoms of the error.
+ 
+Where: Where the symptoms were observed.
+ 
+When: List anything you know about the timing of when the error occurred.
+ 
+To what extent: Scope and magnitude of the symptoms.
+ 
+#### Debugging by Deduction
+- Use the process of elimination to come to a conclusion.
+- You list all possible causes of an error. USe data to eliminate possible causes. Prove the error again with the listed problem then fix.
+ 
+#### Debugging by Backtracking
+- Good for finding errors in small programs.
+- Go back through the program until where you find logic in the programming that has led to the issue.
+ 
+#### Debugging by Testing
+- Provide information useful for locating the error.
+ 
+#### Error Analysis
+- After fixing errors, they should be analysed to help in future.
+- Where was it made? Who made it? What was done incorrectly? How can it be avoided? Why wasn't it detected earlier and how could we have detected it earlier?
+- Analysing based on these questions will help with future programs to cut down on repeating errors.
+
  
  
  
