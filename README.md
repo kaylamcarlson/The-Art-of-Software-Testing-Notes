@@ -163,10 +163,15 @@ Documentation: Subsequent processes have documentation in high detail, how the p
 - We are goal orientated so testing all cases till no errors are detected will produce better tests.
 - Another way to motivate through goal orientation is to look at testing not being complete until 70 errors are found or 3 months have passed. (However it is hard to estimate how many errors a program will have)
  
- 
- 
+ ## Chapter 7 Usability Testing
+-Are the errors shown easy to read or do you need a degree to understand them?
+- When you need to be accurate is the program asking for enough information to verify e.g account number, name and security pin.
+- Is the program easy for anyone to use?
+- This is black box testing.
+- This type of testing can find errors from design flaws to software mistakes.
  
 
+ 
  
  
  
