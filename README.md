@@ -245,8 +245,28 @@ To what extent: Scope and magnitude of the symptoms.
  
 #### Acceptance Testing
 - Determine whether it meets requirements like functionality and usability.
+
+ ## Chapter 10 Testing Internet Applications
+- Customers have high expectations so a site needs to load fast, be well presented and responsive.
+- Websites are a first impression.
+- Will have to make assumptions about how your customers will use the site for testing due to uncontrollable circumstances.
+- Test cases for 3 different areas. Presentation, business and data tier.
+- Always test software even from third parties, don't just trust their quality control.
  
+Usability: Overall look and feel or a program. Looking at fonts, colours, pictures.
  
+Performance: Fast loading, quick transactions.
+ 
+Business Rules: Ensure business conventions are followed.
+ 
+Transaction Accuracy: Accuracy of transactions, cancelled ones roll back correctly, is input verification strong?
+ 
+Data validity and integrity: Valid format for phone, email and currency.
+ 
+System Reliability: Test how reliable it is or if it's prone to crash under certain circumstances.
+ 
+Network Architecture: Connectivity and how does it respond during outages.
+
 
  
  
