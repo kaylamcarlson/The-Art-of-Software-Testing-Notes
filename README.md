@@ -267,6 +267,60 @@ System Reliability: Test how reliable it is or if it's prone to crash under cert
  
 Network Architecture: Connectivity and how does it respond during outages.
 
+## Chapter 11 Mobile Application Testing
+- Mobile device defines as something that can run network based apps via satellite and cellular data links.
+- You need to know how the carriers infrastructure relays data. Does it transpose, encrypt, compress or modify the data before or while it's being sent?
+- Test cases to keep in mind for a mobile environment include:
+1. Connectivity: Network speed, latency and availability in remote areas.
+1. Diversity Devices: Many web browsers to test as well as many versions.
+1. Device Constraiints: Limited memory, data cache, multitasking ability and small screen.
+1. Input Devices: Keyboard, mouse, buttons, stylus.
+1. Installation and Maintenance: Updates, install/uninstall and patches.
+ 
+#### Mobile Device Diversity
+- So many new releases it is impossible to keep up with release cycles.
+- They all use different operating systems, browers, applications, screen size, user interfaces, resolutions and more.
+- Testing on emulators is good and cheap, however because they only emulate you will get some differences.
+- Every device you don't test on means it may not be compatible with your application.
+ 
+#### Carrier Network Structure
+- Transcoding may cause UI changes between devices as some support (WAP) Wireless Application Protocol while others are (WML)Wireless Markup Language.
+- Location tracking can also cause issues and are hard to test without sending people to various places which can be costly.
+ 
+#### Scripting
+- Unable to run test scripts on a mobile phone so manual testing needs to be completed.
+ 
+#### Usability
+- Testing to make sure it works well from the consumers end however an added step on comparing performance between devices such as the UI of apple vs android.
+ 
+#### Testing Approaches
+- Many white box techniques work well.
+- Look with more interest at data transfers if cell coverage is spotty. Look at the data cache as well as if synchronization is incomplete or interrupted. What happens if it suddenly connects again, does it resume or does a purchase occur twice?
+- Areas to keep in mind when testing on a mobile device are:
+1. Install/uninstall: Can they correctly install and uninstall?
+1. Network Infrastructure: Does it respond correctly to disrupted and continued network coverage. How is it with weak signals?
+1. Messages and calls: Can they make, reject and start calls while the app sits in the background. Does it resume correctly afterwards?
+1. Low Memory: Is it stable with low memory?
+1. Key Mappings: Do the buttons all work correctly?
+1. Feedback: Does the user get the correct feedback to know it is responding?
+1. Exiting: Does it exit correctly and store data for next time?
+1. Charging: Does it still work when charging or coming off charging?
+1. Battery: Does it work on low battery? How much does it drain?
+1. Device interaction: Does it use too much CPU or memory?
+ 
+#### Real Devices
+- Only by having it in your hand will you truly understand a user's experience. You can also test carriers networks and get a true feel for responsiveness.
+- It allows for better white box testing however manual testing is more error prone as well as it is quite costly to have to purchase all the devices.
+- Many devices are locked so you are unable to load debugging tools.
+- Unable to do automated script testing so will need to write manual test causes and do them by hand.
+ 
+#### Testing with Emulators
+- It is cost effective.
+- They allow for automated testing, scripts and debugging tools can be used.
+- However you can't be as confident with how many errors you have found if you do not test directly on the physical device.
+ 
+
+- 
 
  
  
